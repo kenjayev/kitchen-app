@@ -1,0 +1,74 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin-bottom: 43px;
+}
+
+.header__logo {
+  width: 183px;
+  height: 62px;
+}
+.header__logo-img {
+  width: 100%;
+  height: 100%;
+}
+.header__menu-item {
+  margin-right: 70px;
+  list-style: none;
+  display: inline-block;
+}
+.header__menu-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #302929;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.header__menu-link.header__menu-link--active {
+  color: #b0cc0d;
+  text-decoration: underline;
+}
+.header__menu-link:hover {
+  text-decoration: underline;
+}
+.header__contact {
+  margin-right: 30px;
+}
+.header__contact-icon {
+  margin-right: 7px;
+}
+.header__contact-text,
+.header__multilingual-text {
+  font-weight: bold;
+}
+.header__multilingual {
+  margin-right: 50px;
+  cursor: pointer;
+}
+.header__multilingual-icon {
+  margin-left: 5px;
+}
+.header__sign-in {
+  width: 140px;
+  padding: 8px;
+  background-color: #ffa800;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.header__sign-in:hover {
+  background-color: #b0cc0d;
+}
+.header__sign-in-text {
+  margin-right: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
