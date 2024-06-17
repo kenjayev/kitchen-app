@@ -1,0 +1,85 @@
+.banner-section {
+  position: relative;
+  padding: 54px 0px 47px 102px;
+  background-color: #b0cc0d;
+  border-radius: 55px;
+  margin-bottom: 135px;
+}
+
+.banner__text-box {
+  max-width: 400px;
+  width: 100%;
+}
+.banner__title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 100%;
+  font-weight: bold;
+  font-size: 65px;
+  color: #fff;
+}
+.banner__subtitle {
+  margin-bottom: 20px;
+  line-height: 59px;
+  font-size: 25px;
+}
+.banner__link {
+  background-color: #ffa800;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 32px;
+  padding: 18px 27px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.4s;
+}
+.banner__link:hover {
+  background-color: #fff;
+  color: #b0cc0d;
+}
+
+.banner__bg {
+  width: 866px;
+  height: 577px;
+  background: url("../../img/banner__bg.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  bottom: -135px;
+  right: -60px;
+  z-index: 5;
+}
+.banner__bg-line {
+  width: 583px;
+  height: 534px;
+  background: url("../../img/banner_bg-line.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  bottom: -115px;
+  right: 75px;
+  z-index: 1;
+}
+.banner__bg-shadow {
+  width: 467px;
+  height: 467px;
+  background: url("../../img/banner__bg-shadow.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  bottom: -146px;
+  right: 142px;
+  z-index: 2;
+}
+.banner__bg-mosh {
+  transform: scale(1.8);
+  width: 244px;
+  height: 180px;
+  background: url("../../img/banner__bg-mosh.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  bottom: -75px;
+  right: -68px;
+  z-index: 3;
+}

@@ -1,0 +1,31 @@
+/* ------------------------------------------ */
+.delivery-section {
+  margin-bottom: 100px;
+}
+.delivery__search-form {
+  margin-bottom: 37px;
+  position: relative;
+}
+.delivery__search-input {
+  width: 100%;
+  border-radius: 23px;
+  background-color: #f4f4f4;
+  border: none;
+  outline: none;
+  padding: 25px 0px 25px 22px;
+  font-size: 18px;
+  position: relative;
+}
+.delivery__search-icon {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background: url("../../img/icon/serch-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 5;
+}

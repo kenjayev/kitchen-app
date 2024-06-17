@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kitchen app</title>
     <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/banner.css" />
+    <link rel="stylesheet" href="./css/components/menu.css" />
+    <link rel="stylesheet" href="./css/components/delivery.css" />
+    <link rel="stylesheet" href="./css/components/advantages.css" />
+    <link rel="stylesheet" href="./css/components/faq.css" />
     <link rel="stylesheet" href="./css/components/footer.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Start of header section -->
-    <header class="container header-container">
+    <header class="container header-section">
       <div class="header__logo">
         <img
           src="./img/header__logo.png"
@@ -50,6 +55,219 @@
     </header>
     <!-- End of header section -->
 
+    <!-- Start of banner section -->
+    <section class="container banner-section">
+      <div class="banner__text-box">
+        <h2 class="banner__title">Your personal cook</h2>
+        <h4 class="banner__subtitle">The balanced diet for every day</h4>
+        <a href="#" class="banner__link">Make your choice</a>
+      </div>
+      <span class="banner__bg"></span>
+      <span class="banner__bg-line"></span>
+      <span class="banner__bg-shadow"></span>
+      <span class="banner__bg-mosh"></span>
+    </section>
+    <!-- End of banner section -->
+
+    <!-- Start of Menu section -->
+    <section class="menu-section container">
+      <h2 class="section__title">Our MENU</h2>
+      <div class="menu__sort-list row">
+        <div class="col menu__sort-item menu__sort-item--active">
+          <p class="menu__sort-title">Power</p>
+          <p class="menu__sort-info">1800 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Slim</p>
+          <p class="menu__sort-info">1500 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Balance</p>
+          <p class="menu__sort-info">1300 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Slim</p>
+          <p class="menu__sort-info">1500 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Balance</p>
+          <p class="menu__sort-info">1300 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Slim</p>
+          <p class="menu__sort-info">1500 kcal</p>
+        </div>
+        <div class="col menu__sort-item">
+          <p class="menu__sort-title">Balance</p>
+          <p class="menu__sort-info">1300 kcal</p>
+        </div>
+      </div>
+
+      <div class="menu__body">
+        <div class="menu__weeks-box row">
+          <div class="cal-1 row menu__weeks-list">
+            <div class="cal menu__weeks-item menu__weeks-item--active">Monday</div>
+            <div class="cal menu__weeks-item">Tuesday</div>
+            <div class="cal menu__weeks-item">Wednesday</div>
+            <div class="cal menu__weeks-item">Thursday</div>
+            <div class="cal menu__weeks-item">Friday</div>
+            <div class="cal menu__weeks-item">Saturday</div>
+            <div class="cal menu__weeks-item">Sunday</div>
+          </div>
+          <div class="cal row menu__weeks-controller">
+            <button class="btn menu__weeks-controller__left"><img src="./img/icon/left-icon--small.png" alt=""></button>
+            <div class="menu__weeks-controller__info">
+              <p class="menu__weeks-controller__title">WEEK 1</p>
+              <p class="menu__weeks-controller__text">This week</p>
+            </div>
+            <button class="btn menu__weeks-controller__right"><img src="./img/icon/right-icon--small.png" alt=""></button>
+          </div>
+        </div>
+        <div class="menu__foods"></div>
+        <p class="menu__info">
+          A balanced menu helps to maintain health and a slim figure, allows you to be cheerful and active throughout the week. While preparing our dishes, we use products from the best suppliers and always choose products that correspond to the concept of healthy nutrition. For example, lean beef, turkey and chicken, low-calorie sauces, 
+          pasta of hard varieties. Delivery is carried out every 2 days.
+        </p>
+        <div class="menu__calc">
+
+        </div>
+      </div>
+    </section>
+    <!-- End of Menu section -->
+
+    <!-- Start of Delivery section -->
+    <section class="delivery-section container">
+      <h2 class="section__title">Delivery areas</h2>
+      <form class="delivery__search-form">
+        <input type="text" placeholder="Enter your address" class="delivery__search-input" id="delivery__search-input">
+        <label for="delivery__search-input" class="delivery__search-icon"></label>
+      </form>
+      <div class="delivery__map">
+        <img src="./img/map.png" alt="">
+      </div>
+      </input>
+    </section>
+    <!-- End of Delivery section -->
+
+    <!-- Start of advantages section -->
+    <section class="advantages-section">
+      <div class="advantages__header container">
+        <h2 class="section__title">Our advantages</h2>
+        <div class="advantages__list row">
+          <div class="advantages__item">
+            <div class="advantages__item-header">
+              <img src="./img/icon/advantages-icon-1.png" alt="icon" class="advantages__item-img">
+            </div>
+            <h6 class="advantages__item-title">We'll deliver <br> it free of charge</h6>
+            <p class="advantages__item-subtitle">In a convenient 2-hour interval</p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-header">
+              <img src="./img/icon/advantages-icon-2.png" alt="icon" class="advantages__item-img">
+            </div>
+            <h6 class="advantages__item-title">We’ll calculate calories</h6>
+            <p class="advantages__item-subtitle">It will be easy for you to control your diet</p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-header">
+              <img src="./img/icon/advantages-icon-3.png" alt="icon" class="advantages__item-img">
+            </div>
+            <h6 class="advantages__item-title">We'll help you to save up to 20 hours</h6>
+            <p class="advantages__item-subtitle">Iof free time a week for you</p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-header">
+              <img src="./img/icon/advantages-icon-4.svg" alt="icon" class="advantages__item-img">
+            </div>
+            <h6 class="advantages__item-title">Everything is ready, just warm it upe</h6>
+            <p class="advantages__item-subtitle">We’ll bring you ready-made dishes</p>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__item-header">
+              <img src="./img/icon/advantages-icon-5.png" alt="icon" class="advantages__item-img">
+            </div>
+            <h6 class="advantages__item-title">Lorem ipsum dolor sit amet consectetur.</h6>
+            <p class="advantages__item-subtitle">Quisque sed nisi turpis enim. Amet blandit ut</p>
+          </div>
+        </div>
+      </div>
+      <div class="advantages__banner">
+        <div class="advantages__banner-wrapper container">
+          <div class="advantages__text-box">
+            <h4 class="advantages__text-title">1 day at the price of 23$</h4>
+            <p class="advantages__text-subtitle">Make orders, take part in promotions, recommend us to friends or connect
+              recommend us to friends or connect  </p>
+            <a href="#" class="advantages__text-link">Sing up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of advantages section -->
+
+        <!-- Start of FAQ section -->
+        <section class="faq-section container">
+          <h2 class="section__title">FAQ</h2>
+          <div class="faq__list row">
+              <div class="faq__item faq__item--active">
+                <img src="./img/icon/faq-icon-1.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Cashback</p>
+              </div>
+              <div class="faq__item">
+                <img src="./img/icon/faq-icon-2.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Weight loss</p>
+              </div>
+              <div class="faq__item">
+                <img src="./img/icon/faq-icon-3.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Products</p>
+              </div>
+              <div class="faq__item">
+                <img src="./img/icon/faq-icon-4.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Rates</p>
+              </div>
+              <div class="faq__item">
+                <img src="./img/icon/faq-icon-5.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Payment</p>
+              </div>
+              <div class="faq__item">
+                <img src="./img/icon/faq-icon-6.svg" alt="icon -1 " class="faq__item-img">
+                <p class="faq__item-text">Storage</p>
+              </div>
+          </div>
+          <div class="faq__question-box">
+            <div class="faq__question">
+              <p class="faq__question-text">What is cashback?</p>
+              <p class="faq__question-answer">Make orders, take part in promotions, recommend us to friends or connect a <br>
+                 family tariff. We will refund up to 50% of the order value.'
+              </p>
+            </div>
+            <div class="faq__question faq__question--active">
+              <p class="faq__question-text">How to get cashback?</p>
+              <p class="faq__question-answer">Make orders, take part in promotions, recommend us to friends or connect a <br>
+                 family tariff. We will refund up to 50% of the order value.'
+              </p>
+            </div>
+            <div class="faq__question">
+              <p class="faq__question-text">Why can I only spend part of the cashback?</p>
+              <p class="faq__question-answer">Make orders, take part in promotions, recommend us to friends or connect a <br>
+                 family tariff. We will refund up to 50% of the order value.'
+              </p>
+            </div>
+            <div class="faq__question">
+              <p class="faq__question-text">Where can I see how many bonus rubles I have in my account?</p>
+              <p class="faq__question-answer">Make orders, take part in promotions, recommend us to friends or connect a <br>
+                 family tariff. We will refund up to 50% of the order value.'
+              </p>
+            </div>
+            <div class="faq__question">
+              <p class="faq__question-text">What can I spend cashback on?</p>
+              <p class="faq__question-answer">Make orders, take part in promotions, recommend us to friends or connect a <br>
+                 family tariff. We will refund up to 50% of the order value.'
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- End of advantages section -->
+    
     <!-- Start of footer section -->
     <footer class="footer-section">
       <div class="footer__body-row container">
@@ -58,20 +276,20 @@
             <img src="./img/footer__logo.png" alt="footer logo" class="footer__logo-img">
           </div>
           <div class="footer__sociol-media">
-            <img src="./img/icon/telegram-icon.png"  class="footer__sociol-media__icon" alt="Telegram">
-            <img src="./img/icon/instagram-icon.png" class="footer__sociol-media__icon"  alt="instagram">
-            <img src="./img/icon/feacebook-icon.png" class="footer__sociol-media__icon"  alt="facebook">
+            <a href="#" class="footer__sociol-media__link" ><img src="./img/icon/telegram-icon.png"  class="footer__sociol-media__icon" alt="Telegram"></a>
+            <a href="#" class="footer__sociol-media__link" ><img src="./img/icon/instagram-icon.png" class="footer__sociol-media__icon"  alt="instagram"></a>
+            <a href="#" class="footer__sociol-media__link" ><img src="./img/icon/feacebook-icon.png" class="footer__sociol-media__icon"  alt="facebook"></a>
           </div>
         </div>
         <div class="footer__col footer__col--links">
           <ul class="footer__menu">
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Menu</a></li>
+            <li class="footer__menu-item"><a href="./index.html" class="footer__menu-link">Menu</a></li>
             <li class="footer__menu-item"><a href="#" class="footer__menu-link">Delivery</a></li>
             <li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
             <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contacts</a></li>
           </ul>
           <div class="footer__privacy-policy">
-            <a href="#" class="footer__privacy-policy__link">
+            <a href="./terms.html" class="footer__privacy-policy__link">
               Privacy Policy <br>
               Terms and Conditions <br>
               Terms and Conditions
@@ -109,5 +327,14 @@
       
     </footer>
     <!-- End of footer section -->
+
+    <script>
+      const questions = document.querySelectorAll(".faq__question");
+      questions.forEach(q => {
+        q.addEventListener("click", () => {
+          q.classList.toggle("faq__question--active")
+        })
+      })
+    </script>
   </body>
 </html>

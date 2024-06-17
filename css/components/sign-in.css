@@ -1,0 +1,104 @@
+.modal__sign-in {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.sign-in__banner {
+  width: 45%;
+  height: 100vh;
+  background: url("../../img/sign__banner-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* .sign-in__banner-img {
+  width: 100%;
+  height: 100%;
+} */
+.sign-in__control {
+  position: relative;
+  flex: 1;
+}
+.sign-in__control-wrapper {
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-in__logo {
+  width: 232px;
+  height: 86px;
+  margin-bottom: 45px;
+}
+.sign-in__logo img {
+  width: 100%;
+  height: 100%;
+}
+.sign-in__work-space {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+/* --------------- */
+.sign-in__work-title {
+  font-size: 24px;
+  margin-bottom: 33px;
+}
+.sign-in__work-btn {
+  display: block;
+  width: 100%;
+  background-color: #8ec038;
+  border-radius: 6px;
+  text-align: center;
+  padding: 13px 0;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* ---------------- */
+.sign-in__address-input {
+  outline: none;
+  width: 100%;
+  color: #acb6be;
+  font-size: 15px;
+  padding: 13px 0px 13px 20px;
+  background-color: #fcfdfe;
+  border: 1px solid #e9edf4;
+  border-radius: 6px;
+  margin-bottom: 7px;
+}
+.sign-in__address-change {
+  text-align: start;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 20px;
+  color: #acb6be;
+  margin-bottom: 32px;
+}
+.sign-in__address-change__input {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ---- */
+.sign-in__copyright {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.sign-in__copyright span {
+  font-size: 12px;
+}

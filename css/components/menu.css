@@ -1,0 +1,97 @@
+/* -------------------------------------- */
+.menu-section {
+  margin-bottom: 100px;
+}
+.section__title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.menu__sort-list {
+  margin-bottom: 40px;
+}
+.menu__sort-item {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 6px 40px;
+  text-align: center;
+  color: #6a6a6a;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.menu__sort-item.menu__sort-item--active {
+  background-color: #b0cc0d;
+  color: #fff;
+  text-decoration: underline;
+}
+.menu__sort-item:not(.menu__sort-item--active):hover {
+  background-color: #ffa800;
+  color: #fff;
+}
+.menu__sort-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+.menu__sort-info {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+
+/* --- */
+.menu__body {
+  background-color: #b0cc0d;
+  border-radius: 20px;
+  padding: 38px 39px 54px 39px;
+}
+
+.menu__weeks-box {
+  margin-bottom: 15px;
+}
+.menu__weeks-list {
+  margin-right: 45px;
+}
+.menu__weeks-item {
+  padding: 13px 22px;
+  color: #302929;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.menu__weeks-item.menu__weeks-item--active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.menu__weeks-controller {
+  width: 205px;
+  padding: 5px;
+}
+.menu__weeks-controller__info {
+  text-align: center;
+  color: #fff;
+}
+.menu__weeks-controller__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+}
+.menu__weeks-controller__text {
+  padding: 0 5px;
+  font-weight: 300;
+  line-height: 120%;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #ffa800;
+}
+
+.menu__info {
+  color: #ffffff;
+  line-height: 120%;
+}

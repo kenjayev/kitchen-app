@@ -18,3 +18,18 @@ body {
   display: flex;
   align-items: center;
 }
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.cal-1 {
+  flex: 1;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
